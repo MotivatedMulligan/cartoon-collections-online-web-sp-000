@@ -13,9 +13,9 @@ end# This one works! dont change!
 
 def find_the_cheese(array)# code an argument here
    #["cheddar", "gouda", "camembert"]
-array.any? {|array| if array.include?("chedder") puts "chedder"
+array.any? {|array| if array.include?("chedder") "chedder"}
 else return nil
- end}
+ end
 #{|cheese|  cheese.include?(cheese_types)}
 #array of strings
 #look through these strings to find
