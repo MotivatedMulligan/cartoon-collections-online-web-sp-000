@@ -13,7 +13,7 @@ end# This one works! dont change!
 
 def find_the_cheese(array)# code an argument here
    #["cheddar", "gouda", "camembert"]
-array.any? {|array| if true array.include?("chedder") puts "chedder"
+array.any? {|array| array.include?("chedder") if true puts "chedder"
 else puts "nil"}
  end
 #{|cheese|  cheese.include?(cheese_types)}
