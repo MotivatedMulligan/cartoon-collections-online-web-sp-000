@@ -13,8 +13,14 @@ end# This one works! dont change!
 
 def find_the_cheese(array)# code an argument here
    #["cheddar", "gouda", "camembert"]
-array.include?("cheddar"){|array| puts array} #{|cheese|  cheese.include?(cheese_types)}
+array.map {|array| array.include?("cheddar")}
+if true return "chedder" 
+else puts nil#{|cheese|  cheese.include?(cheese_types)}
 #array of strings
 #look through these strings to find
 #and return the first string that is a type of cheese
+#["cheddar", "gouda", and "camembert"]
+
+end
+
 end
