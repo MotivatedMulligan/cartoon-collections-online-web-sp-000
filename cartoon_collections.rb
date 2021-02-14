@@ -12,13 +12,5 @@ end# This one works! dont change!
 
 
 def find_the_cheese(array)# code an argument here
-
-array.find {|array|array.include?.any?("cheddar", "gouda", "camembert")
-}
-
-
-
-
-
-
+array.find {|array|array.include?("cheddar")}
 end
