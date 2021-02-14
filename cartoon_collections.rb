@@ -13,7 +13,8 @@ end# This one works! dont change!
 
 def find_the_cheese(array)# code an argument here
    #["cheddar", "gouda", "camembert"]
-array.find {|array|array.include?("cheddar")}
+array.find {|array|array.include?(["cheddar", "gouda", "camembert"])}
+
 
 
 
