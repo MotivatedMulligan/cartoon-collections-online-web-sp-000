@@ -13,8 +13,8 @@ end# This one works! dont change!
 
 def find_the_cheese(array)# code an argument here
    #["cheddar", "gouda", "camembert"]
-array.any? {|array| if array.include?("chedder") then puts "chedder"
-else puts nil
+array.any? {|array| if array.include?("chedder") then return "chedder"
+else  nil
  end}
 #{|cheese|  cheese.include?(cheese_types)}
 #array of strings
